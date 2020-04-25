@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="fa/css/all.min.css"/>
+		<link rel="stylesheet" href="Home.css"/>
+		<link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css"/>
+		<script src="bootstrap/js/bootstrap.min.js"/></script>
+		<script src="jquery/jquery-3.5.0.min.js"/></script>
+		<script src="jquery/scripts.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<nav>
+				<div class="nav-wrapper">
+					<div class="row">
+						<div class="col-lg-3">
+							<a href="#" class="navbar-brand">LOGO</a>
+						</div>
+						<div class="col-lg-9">
+							<i class="fa fa-bars menu-toggler"></i>
+							<ul class="navbar">
+								<li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+								<li class="nav-item dropdown"><a href="#" class="nav-link">GALLERY</a>
+									<div class="dropdown-content">
+										<a href="#">LINK1</a>
+										<a href="#">LINK2</a>
+										<a href="#">LINK3</a>
+									</div>
+								</li>
+								<li class="nav-item"><a href="#" class="nav-link">EXHIBITIONS</a></li>
+								<li class="nav-item"><a href="#" class="nav-link">ARTIST</a></li>
+								<li class="nav-item"><a href="#" class="nav-link">NEWS</a></li>
+								<li class="nav-item"><a href="#" class="nav-link">BLOG</a></li>
+								<li class="nav-item"><a href="#" class="nav-link">ABOUT US</a></li>
+								<li class="nav-item"><a href="#" class="nav-link">SIGN UP</a></li>
+								<li class="nav-item"><a href="#" class="nav-link">SIGN IN</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<div class="container">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!--indicators-->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="myCarousel" data-slide-to="1"></li>
+					<li data-target="myCarousel" data-slide-to="2"></li>
+				</ol>
+				
+				<!--Wrapper for slides-->
+				<div class="carousel-inner">
+					<div class="item bg1 active">
+						<div class="carousel-caption">
+							<h3>Los Angeles</h3>
+							<p>LA is always so much fun!</p>
+						</div>
+					</div>
+					<div class="item bg2">
+						<div class="carousel-caption">
+							<h3>Chicago</h3>
+							<p>Thank you, Chicago!</p>
+						</div>
+					</div>
+					<div class="item bg3">
+						<div class="carousel-caption">
+							<h3>New York</h3>
+							<p>We love the Big Apple!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

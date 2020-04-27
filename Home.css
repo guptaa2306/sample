@@ -40,12 +40,6 @@ nav{
 	color: white;
 	background-color: #666666;
 }
-.navbar-toggler {
-    color: #fff;
-    font-size: 20px;
-	border-color: green;
-	display: none;
-}
 .dropdown:hover .dropdown-content{
 	display: block;
 	border: 1px solid #666666;;
@@ -75,18 +69,14 @@ nav{
 nav .menu-toggler{
 	display: none;
 }
-.container{
-	width: 100%;
-	background-color: black;
-}
 .bg1{
 	background-image: url('images/pic1.jpg');
 }
 .bg2{
-	background-image: url('images/pic2.jpg');
+	background-image: url('images/pic3.jpg');
 }
 .bg3{
-	background-image: url('images/pic3.jpg');
+	background-image: url('images/pic4.jpg');
 }
 .item{
 	width:100%;
@@ -96,7 +86,19 @@ nav .menu-toggler{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-@media screen and (max-width: 910px){
+.mt-3{
+	margin-top: 3%;
+}
+.d-flex{
+	display: flex;
+}
+.justify-content-around{
+	justify-content: space-around;
+}
+.mb-3{
+	margin-bottom: 3%;
+}
+@media screen and (max-width: 600px){
 	ul.navbar{
 		width:100%;
 		background-color: black;
@@ -108,15 +110,27 @@ nav .menu-toggler{
 		width: 100%;
 	}
 	nav .menu-toggler{
-	display: block;
-	position: absolute;
-	right: 20px;
-	top: 5px;
-	font-size: 20px;
-	color: white;
-	border: 1px solid #666666;
-	padding: 7px 10px;
-	background-color: #666666;
-	border-radius: 3px;
+		display: block;
+		position: absolute;
+		right: 20px;
+		top: 5px;
+		font-size: 20px;
+		color: white;
+		border: 1px solid #666666;
+		padding: 7px 10px;
+		background-color: #666666;
+		border-radius: 3px;
+	}
+	.d-flex{
+		display: block;
+	}
+	.mt-3{
+		margin-top: 3%;
+	}
+	.p-2{
+		padding: 2%;
+	}
+	.ml-3{
+		margin-left: 23%;
 	}
 }

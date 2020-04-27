@@ -1,6 +1,5 @@
 $(document).ready(function(){
 	$('.menu-toggler').on('click', function(){
-		$('.navbar').toggle();
+		$('.navbar').toggle('showing');
 	});
-	$('.carousel').carousel();
 });

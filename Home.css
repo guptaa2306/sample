@@ -111,6 +111,41 @@ nav .menu-toggler{
 	background-color: #6c757d;
 	color: white;
 }
+.about{
+	padding: 50px 16px;
+}
+.details{
+	width: 100%;
+	background-color: black;
+	height: auto;
+}
+.exb-dates{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 94px 16px;
+}
+.card{
+	width: 300px;
+	border: 1px solid white;
+	background-color: white;
+	color: black;
+	padding: 14px 16px;
+}
+.butn{
+	background-color: black;
+	color: white;
+	padding: 10px 14px;
+	border: none;
+	box-shadow: 2px 3px #888888;
+}
+.grp-blck{
+	margin: 0px 0 0 172px;
+}
+.block{
+	float: left;
+	padding: 14px 16px;
+}
 @media screen and (max-width: 600px){
 	ul.navbar{
 		width:100%;
@@ -150,5 +185,8 @@ nav .menu-toggler{
 		color: #6c757d;
 		padding: 7px 3px;
 		width: 73%;
+	}
+	.grp-blck{
+		margin: 0px 0 0 172px;
 	}
 }

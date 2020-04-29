@@ -4,7 +4,7 @@
 body{
 	margin: 0px auto;
 }
-.container-fluid{
+.nv{
 	width: 100%;
 	background-color: black;
 }
@@ -115,36 +115,26 @@ nav .menu-toggler{
 	padding: 50px 16px;
 }
 .details{
-	width: 100%;
 	background-color: black;
-	height: auto;
+	height: 760px;
 }
-.exb-dates{
-	background-color: black;
-	color: white;
+.desc{
 	text-align: center;
 	padding: 94px 16px;
+	color: white;
 }
 .card{
-	width: 300px;
 	border: 1px solid white;
+	width: 270px;
 	background-color: white;
-	color: black;
 	padding: 14px 16px;
 }
-.butn{
+.botn{
 	background-color: black;
 	color: white;
 	padding: 10px 14px;
 	border: none;
 	box-shadow: 2px 3px #888888;
-}
-.grp-blck{
-	margin: 0px 0 0 172px;
-}
-.block{
-	float: left;
-	padding: 14px 16px;
 }
 @media screen and (max-width: 600px){
 	ul.navbar{
@@ -188,5 +178,13 @@ nav .menu-toggler{
 	}
 	.grp-blck{
 		margin: 0px 0 0 172px;
+	}
+	.details{
+		background-color: black;
+		height: 100%;
+	}
+	.gallery{
+		margin-left: 130px;
+		padding: 4px;
 	}
 }

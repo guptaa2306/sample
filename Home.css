@@ -8,10 +8,6 @@ body{
 	width: 100%;
 	background-color: black;
 }
-nav{
-	width: 100%;
-	background-color: black;
-}
 .navbar-brand{
 	display: block;
 	color: white;
@@ -120,7 +116,7 @@ nav .menu-toggler{
 }
 .desc{
 	text-align: center;
-	padding: 94px 16px;
+	padding: 34px 16px;
 	color: white;
 }
 .card{

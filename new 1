@@ -1,0 +1,18 @@
+<div class="responsive">
+				<div class="gallery">
+					<a target="_blank" href="#"><img src="images/gallery1.jpg" alt="gal1" style="width:280px;height:400px"></a>
+					<div class="desc">
+						<h2>Gallery Name</h2>
+						<h4 style="color:white">Address:</h4><p>Lorem Ipsum has been the industry's standard dummy</p>
+					</div>
+				</div>
+			</div>
+			<div class="responsive">
+				<div class="gallery">
+					<a target="_blank" href="#"><img src="images/gallery2.jpg" alt="gal2" style="width:280px; height:400px; margin-top:200px;margin-left:5px;"></a>
+					<div class="desc">
+						<h2>Gallery Name</h2>
+						<h4 style="color:white">Address:</h4><p>Lorem Ipsum has been the industry's standard dummy</p>
+					</div>
+				</div>
+			</div>

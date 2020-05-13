@@ -5,9 +5,17 @@ body{
 	margin: 0px auto;
 	background-color: #0f0f0f;
 }
-.nv{
+nav{
 	width: 100%;
-	background-color: black;
+	background-color: #0f0f0f;
+}
+.nav-wrapper{
+	width: 100%;
+	background-color: #0f0f0f;
+}
+.row{
+	width: 100%;
+	background-color: #0f0f0f;
 }
 .navbar-brand{
 	display: block;
@@ -28,40 +36,13 @@ body{
 	padding: 14px 16px;
 	display: block;
 }
-.nav-item .nav-link:hover, .dropdown:hover{
+.nav-item .nav-link:hover{
 	text-decoration: none;
 	color: white;
 	background-color: #666666;
 }
 .navbar-brand:hover{
 	color: white;
-	background-color: #666666;
-}
-.dropdown:hover .dropdown-content{
-	display: block;
-	border: 1px solid #666666;;
-}
-.dropdown-content{
-	display: none;
-	position: absolute;
-	background-color: black;
-	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
-}
-.dropdown-content a{
-	color:#98d4a5;
-	padding: 14px 16px;
-	display: block;
-	text-decoration: none;
-	text-align: center;
-	border: 1px solid #666666;;
-}
-.dropdown-content a:last-child{
-	border-bottom: none;
-}
-.dropdown-content a:hover{
-	background-color:#666666;
 }
 nav .menu-toggler{
 	display: none;
@@ -214,5 +195,30 @@ nav .menu-toggler{
 	.gallery{
 		margin-left: 130px;
 		padding: 4px;
+	}
+	.contact{
+		padding: 54px 16px;
+		color: #98d4a5;
+		text-align:center;
+	}
+	.form-control{
+		width: 120%;
+	}
+	.btn-primary{
+		color: black;
+		width: 50%;
+	}
+	.connect{
+		text-align: center;
+		font-size: 30px;
+		color: #98d4a5;
+		margin-top: 200px;
+	}
+	.hover-opacity:hover{
+		color: white;
+	}
+	.float-right{
+		margin-right: 130px;
+		padding: 34px 16px;
 	}
 }

@@ -1,3 +1,74 @@
 *{
 	box-sizing: border-box;
 }
+body{
+	margin: 0px auto;
+	background-color: #0f0f0f;
+
+}
+nav{
+	width: 100%;
+	background-color: #0f0f0f;
+}
+.nav-wrapper{
+	width: 100%;
+	background-color: #0f0f0f;
+}
+.row{
+	width: 100%;
+	background-color: #0f0f0f;
+}
+.navbar-brand{
+	display: block;
+	color: #98d4a5;
+}
+.navbar-brand:hover{
+	color: white;
+}
+.navbar{
+	list-style-type: none;
+	float: right;	
+}
+.nav-item{
+	float: left;
+}
+.nav-item .nav-link{
+	text-decoration: none;
+	color: #98d4a5;
+	padding: 14px 16px;
+	display: block;
+}
+.nav-item .nav-link:hover{
+	color: white;
+	background-color: #666666;
+}
+nav .menu-toggler{
+	display: none;
+}
+.oil-gal{
+	width: 100%;
+}
+img{
+	width: 250px;
+	height: 250px;
+	transition: width 2s, height 2s;
+	opacity: 0.8;
+	border-radius: 8px;
+	transform: rotate(20deg);
+	margin-top: 100px;
+	margin-left: 50px;
+}
+img:hover{
+	width: 300px;
+	height: 300px;
+}
+.btn{
+	padding: 10px 12px;
+	width: 50%;
+	transform: rotate(20deg);
+	background-color: #51ad78;
+	color: white;
+}
+.btn:hover{
+	color: white;
+}

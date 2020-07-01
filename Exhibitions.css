@@ -1,0 +1,64 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px auto;
+	background-color: #0f0f0f;
+}
+.navbar{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#mySidenav a{
+	position: absolute;
+	text-decoration: none;
+	color: #98d4a5;
+	left: -80px;
+	width: 150px;
+	transition: 0.3s;
+	padding: 14px 16px;
+	font-size: 15px;
+	color: white;
+	border-radius: 0 5px 5px 0;
+	text-align: center;
+}
+#mySidenav a:hover{
+	left: 0;
+}
+#home{
+	background-color: #333333;
+	top: 90px;
+}
+#gallery{
+	background-color: #333333;
+	top: 150px;
+}
+#exhibitions{
+	background-color: #333333;
+	top: 210px;
+}
+#artist{
+	background-color: #333333;
+	top: 270px;
+}
+#news{
+	background-color: #333333;
+	top: 330px;
+}
+#blog{
+	background-color: #333333;
+	top: 390px;
+}
+#about{
+	background-color: #333333;
+	top: 450px;
+}
+#sigup{
+	background-color: #333333;
+	top: 510px;
+}
+#sigin{
+	background-color: #333333;
+	top: 570px;
+}

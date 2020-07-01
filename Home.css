@@ -83,7 +83,6 @@ nav .menu-toggler{
 	background-color: white;
 }
 .btn-outline-secondary{
-	border: 1px solid #6c757d;
 	font-size: 120%;
 }
 .btn:hover{
@@ -93,6 +92,12 @@ nav .menu-toggler{
 .about{
 	padding: 50px 16px;
 	color: #98d4a5;
+}
+.profile{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin: auto;
+	text-align: center;
+	border: 1px solid #86c6a0;
 }
 .color-txt{
 	color: #98d4a5;
@@ -176,9 +181,6 @@ nav .menu-toggler{
 	}
 	.p-2{
 		padding: 2%;
-	}
-	.ml-3{
-		margin-left: 23%;
 	}
 	.btn{
 		color: #6c757d;
